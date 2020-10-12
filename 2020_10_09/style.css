@@ -8,6 +8,10 @@ html {
   body {
     scrollbar-width: thin;
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    background-image: url("circuit-minimalist-11-4k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   body::-webkit-scrollbar-track {
     background: var(--scrollbarBG);
@@ -28,11 +32,11 @@ li a:hover
 {
     background-color: 212529;
 }
-li
+.nav-item
 {
     border-left: 1px solid #bbb;
 }
-li:last-child
+.nav-item:last-child
 {
     border-right: 1px solid #bbb;
 }
@@ -64,9 +68,14 @@ footer
 
 }
 
+h3
+{
+  text-align: center;
+}
+
 section
 {
-  margin: 92px 20px 20px 20px;
+  margin: 100px 60px 60px 60px;
   text-align: justify;
 }
 
@@ -81,4 +90,11 @@ section
       border-right: none;
   }
 
+}
+
+.padding
+{
+  padding: 10px 50px 50px 50px;
+  background: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
