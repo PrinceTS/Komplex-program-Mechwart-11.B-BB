@@ -1,6 +1,6 @@
 html {
     --scrollbarBG: #f8f9fa;
-    --thumbBG: rgba(0,0,0,.9);
+    --thumbBG: #212529;
   }
   body::-webkit-scrollbar {
     width: 11px;
@@ -24,19 +24,19 @@ html {
     text-align: center;
     padding: 14px 16px;
 }
-li a:hover 
+li a:hover
 {
-    background-color: grey;
+    background-color: 212529;
 }
-li 
+li
 {
     border-left: 1px solid #bbb;
 }
-li:last-child 
+li:last-child
 {
     border-right: 1px solid #bbb;
 }
-.nav-item active 
+.nav-item active
 {
     color: #4CAF50;
 }
@@ -53,5 +53,26 @@ li:last-child
 }
 footer
 {
-    text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  opacity: 0.95;
+
+}
+
+@media screen and (max-width:991px)
+{
+  #timeOut
+  {
+    display: none;
+  }
+  li:last-child
+  {
+      border-right: none;
+  }
+
 }
