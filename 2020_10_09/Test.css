@@ -80,6 +80,10 @@ section
   {
       border-right: none;
   }
+  nav
+  {
+    opacity: 0.9
+  }
 
 }
 
@@ -89,3 +93,21 @@ section
   text-align: justify;
   border-bottom: 1px solid black;
 }
+#itvirus
+{
+  margin: auto;
+  padding: auto;
+  position: relative;
+  width: 20%;
+  float: right;
+}
+.viruspopup
+{
+  visibility: hidden;
+}
+#viruspopup:hover .viruspopup
+{
+  visibility: visible;
+}
+#HDDpopup{}
+#SSDpopup{}

@@ -39,7 +39,7 @@
 
 <form action="Evaluation.html" method="post" required>
 
-  <p class="question">What does HDD means? :</p><br>
+  <p class="question">What does <a id="HDDpopup">HDD</a> means? :</p><br>
     <input type="radio" id="hdd1" name="hdd">
     <label for="hdd1">Hard Drive Disk </label><br>
     <input type="radio" id="hdd2" name="hdd">
@@ -48,13 +48,20 @@
     <label for="hdd3">Hard Disk Drive</label><br>
     <input type="radio" id="hdd4" name="hdd">
     <label for="hdd4">High Definiton Disk</label><br><br>
-    <img src="itvirus.jpg">
 
-  <p class="question">What does SSD means? :</p><br>
+    <div class="HDDpopup">
+
+    </div>
+
+  <p class="question">What does <a id="SSDpopup">SSD</a> means? :</p><br>
     <input type="text" id="ssd1" name="ssd" value="">
     <br><br>
 
-  <p class="question">Which virus slows your network? :</p><br>
+    <div class="SSDpopup">
+
+    </div>
+
+  <p class="question">Which <a id="viruspopup">virus</a> slows your network? :</p><br>
     <input type="radio" id="virus1" name="virus">
     <label for="virus1">Trojan</label><br>
     <input type="radio" id="virus2" name="virus">
@@ -64,15 +71,10 @@
     <input type="radio" id="virus4" name="virus">
     <label for="virus4">High Definiton Disk</label><br><br>
 
-  <p class="question">What does HDD means? :</p><br>
-    <input type="radio" id="hdd1" name="hdd">
-    <label for="age1">Hard Drive Disk </label><br>
-    <input type="radio" id="hdd2" name="hdd">
-    <label for="age1">Hybrid Drive Disk </label><br>
-    <input type="radio" id="hdd3" name="hdd">
-    <label for="age2">Hard Disk Drive</label><br>
-    <input type="radio" id="hdd4" name="hdd">
-    <label for="age3">High Definiton Disk</label><br><br>
+    <div class="viruspopup">
+      <p>Viruses are bad things for a pc.</p>
+      <img src="itvirus.jpg">
+    </div>
 
     <input type="submit" value="Submit">
 
