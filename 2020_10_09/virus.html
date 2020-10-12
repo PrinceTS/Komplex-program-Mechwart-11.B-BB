@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>IT</title>
+</head>
+<body onload="Time()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">IT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ITBasic.html">Computer Structure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index - Copy (2).html">Virus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="index - Copy (3).html">About</a>
+            </li>
+          </ul>
+        </div>
+        <p class="bg-light" id="timeOut" ></p>
+      </nav>
+    <section>
+
+
+     <p>
+      Computer viruses
+      By the mid-1980s, not many programmers had taken seriously those who claimed that there were programs that replicated themselves, infecting computers into the system, and destroying other systems. Nowadays, all users have heard of viruses, but unfortunately few are aware of the types of viruses, how they are infected, and the methods of protection.
+      Computer viruses are, of course, programs that are mostly so small that they can hide in the system without being noticed.
+      Viruses can be divided into two parts
+      1. Sleeping time:
+            The virus tries to go unnoticed, it just multiplies, meaning it infects other systems as it tries to create as many individuals as possible. The point of the period is survival, so if a copy is destroyed, there should still be copies.
+       2. Activation period:
+            The virus system is activated after a certain number of starts (possibly immediately) or when an external condition occurs (PL: Friday the 13th). This means that from this moment on, it is not dealing with reproduction but damage.
+      A computer virus is a program that places its own copies in other executable programs or documents. A virus is just one of many types of malware. This can be misleading to computer users, as the frequency of computer viruses in the narrower sense has now decreased compared to other malicious software such as worms.
+      Although computer viruses can be malicious (e.g., by destroying data), certain types of viruses are just annoying. Some viruses take a delayed effect, for example, only after infecting a certain number of host programs. The dominant harmful effect of viruses is their uncontrolled reproduction, which can overload computer resources.
+      <br>
+      Common features
+      Infection of host programs and self-replicating behavior is common to all viruses. In addition, they often have the following characteristics:
+      <ul>
+        <li>very small size;</li>
+        <li>most of them cause problems on Microsoft Windows operating systems;</li>
+        <li>are able to infect executable files;</li>
+        <li>they were usually made with malicious intent;</li>
+        <li>often even sorted, timed to destroy other files;</li>
+        <li>they operate in secret, possibly revealing themselves once their duties have been completed;</li>
+        <li>have increasingly advanced intelligence, e.g. they can change their own code and activity</li>
+      </ul>
+      The purpose of viruses is not to destroy them, but to obtain illegal goods or personal, confidential data. Accordingly, their method of distribution is also different from the previous ones. In 2005, the first silent attack using a personalized Trojan program was recorded in connection with the “Israeli case”.
+      <br>
+      Types of viruses
+      · Anti-copy viruses:
+                 They do not reproduce, they are integrated into a particular system. They have no latency, their goal is to prevent program theft by recognizing changes in the computer environment. Their friendlier kind only prevents them from booting that particular system, but there are some that delete the entire newly installed system, possibly many more. With the frequent replacement of motherboard and op system these days, they have lost their raison d’être.
+      · Malicious viruses:
+                 These viruses delete, overwrite, or encrypt our data during the activation period, and usually result in a complete system crash, which occurs after multiple startups or immediately, depending on the virus. For milder viruses, the data is not deleted, only the virus makes the job harder.
+      · Worm viruses:
+        Their purpose is not to cause direct damage, but to extract certain information (password privileges) from the system and store it or send it over the Internet.
+      Spread of viruses
+      · Boot viruses:
+                  They are installed in the boot sector and partition table of the disk and the boot program is replaced. A condition for the infection to spread is that the boot disk be viral. The spread of viruses is based on the loading process: When you start with an infected disk, the virus also starts in front of the operating system and continues to monitor disk operations. Then all disks referenced will be infected.
+      · File (file viruses):
+                  As they spread, they infect files that contain executable code (COM EXE SYS DRV BIN) and write their own code into them. To infect, it is enough to start an infected file and then all the files referenced by the system become infected.
+      Types:
+      Apend viruses (append): Usually append to the end of executable files and then write a code at the beginning to execute the virus first, and only then the original operation. One special type of appendage virus is the amoeba virus, which changes its code after each infection. Intelligent viruses store the program code compressed and change the unpacking algorithm or its code.
+      Overwrite viruses: Part of the infected file is overwritten and they do not care that the code can no longer be recovered.
+      Macro viruses:
+                  The virus nests in DOC or XLS files and starts automatically when the document is opened. There is a great danger that their operation will only be noticed when it is too late, on the other hand, if the author does not decode the virus, anyone can modify it, creating a new virus that antivirus scanners can no longer track due to the number of variations.
+      Letter bombs:
+                  Viruses spread through e-mail and are activated when we read the e-mail. The course of the infection depends on the environment If you have a permanent Internet connection, the virus sends itself to all stored addresses and then sends an E-mail to a system. In the event of such a flood of mail, some systems may crash. If we do not have a permanent internet connection, the virus will only infect our own documents.
+      <br>
+      Trojan 
+      Programs can carry a variety of viruses or spyware that are automatically installed on your computer when you start them. It got its name from the Trojan wall because, like it, it looks different from the outside than what it actually hides. Software that also performs functions that are unknown to the user, usually harmful and / or contrary to its interests, which disguises itself as a useful program and thus persuades the user to launch it.
+      Simpler Trojans only seem to be a useful program from the outside, while their more advanced versions are actually able to perform the promised functions in addition to spying - thus reducing the risk of crashing.
+      The primary purpose of such viruses is to extract data. They can work in several ways. However, the principle is the same for everyone. They are triggered when a file or other file that appears to be secure is downloaded, that is, when it is opened. This is also why they are called Trojan horse viruses because we bring them into our system ourselves. During their operation, several symptoms can occur. Some Trojans paralyze the entire system and thus extract the data and then store it (this is even better because the data does not go over the network) or forward it to a pre-programmed computer immediately. However, there are times when we see no sign of the activity of the virus, we only realize it when it is too late. Viruses are usually written for industrial espionage, but there are also instances against private users.
+      Protection against viruses
+      prevention: use only genuine software,
+      early detection: monitor for suspicious signals during computer operation (eg, the computer slows down, programs do not work as we used to, etc.)
+      protection: use a virus-monitoring, memory-resident program
+      prepair: an anti-virus and anti-virus program will try to detect and then delete the virus.
+     </p> 
+
+
+
+
+    </section>
+    <aside></aside>
+    <footer>
+        &copy; 2020
+    </footer>
+
+    <div class="scripts">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
