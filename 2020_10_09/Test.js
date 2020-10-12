@@ -14,20 +14,10 @@ if(TimeSec < 10) TimeSec = "0" + TimeSec
 document.getElementById("timeOut").innerHTML = TimeHour + ":" + TimeMin + ":"+ TimeSec
 }
 
-function Test()
-{
-
-var points = 0;
-if (true)
-{
-
-}
-
-Evulation(points)
-
-}
-
-function Evaluation(points)
-{
-
-}
+$(document).ready(function(){
+  $("#viruspopup").hover(function(){
+    $(".viruspopup").css("visibility", "visible");
+  },function(){
+    $(".viruspopup").css("visibility", "hidden");
+  });
+});

@@ -101,13 +101,16 @@ section
   width: 20%;
   float: right;
 }
+#viruspopup
+{
+  cursor: pointer;
+}
 .viruspopup
 {
   visibility: hidden;
 }
-#viruspopup:hover .viruspopup
-{
-  visibility: visible;
-}
+
+
+
 #HDDpopup{}
 #SSDpopup{}
