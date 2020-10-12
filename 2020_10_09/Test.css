@@ -67,7 +67,7 @@ footer
 section
 {
   margin: 92px 20px 20px 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 @media screen and (max-width:991px)
@@ -85,7 +85,7 @@ section
 
 .question
 {
-  width: auto;
-
+  display: inline-block;
+  text-align: justify;
   border-bottom: 1px solid black;
 }
