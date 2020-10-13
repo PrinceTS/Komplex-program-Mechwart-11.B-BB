@@ -8,6 +8,16 @@ html {
   body {
     scrollbar-width: thin;
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    background-image: url("circuit-minimalist-11-4k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .padding
+  {
+    padding: 10px 50px 50px 50px;
+    background: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
   }
   body::-webkit-scrollbar-track {
     background: var(--scrollbarBG);
@@ -66,7 +76,7 @@ footer
 
 section
 {
-  margin: 92px 20px 20px 20px;
+  margin: 100px 60px 60px 60px;
   text-align: center;
 }
 
