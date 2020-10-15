@@ -111,16 +111,52 @@ section
   width: 20%;
   float: right;
 }
-#viruspopup
+
+#HDDpopup,#SSDpopup,#viruspopup, #POSTpopup
 {
   cursor: pointer;
 }
 .viruspopup
 {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%,-70%);
   visibility: hidden;
+  transition: 0.5s;
+  padding: 20px;
+}
+.HDDpopup
+{
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+  visibility: hidden;
+  transition: 0.5s;
+  padding: 20px;
+}
+.SSDpopup
+{
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+  visibility: hidden;
+  transition: 0.5s;
+  padding: 20px;
+}
+.POSTpopup
+{
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+  visibility: hidden;
+  transition: 0.5s;
+  padding: 20px;
 }
 
 
 
-#HDDpopup{}
-#SSDpopup{}
+

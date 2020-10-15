@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="2">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="Test.css">
     <title>IT</title>
@@ -46,7 +45,7 @@
       </nav>
     <section>
 <div class="padding">
-<form action="Evaluation.html" method="post" required>
+<form action="" method="post" required>
 
   <p class="question">What does <a id="HDDpopup">HDD</a> means? :</p><br>
     <input type="radio" id="hdd1" name="hdd">
@@ -76,16 +75,30 @@
     <input type="radio" id="virus2" name="virus">
     <label for="virus2">Worm</label><br>
     <input type="radio" id="virus3" name="virus">
-    <label for="virus3">Hard Disk Drive</label><br>
+    <label for="virus3">Malicious</label><br>
     <input type="radio" id="virus4" name="virus">
-    <label for="virus4">High Definiton Disk</label><br><br>
+    <label for="virus4">Letter bombs</label><br><br>
 
     <div class="viruspopup">
       <p>Viruses are bad things for a pc.</p>
       <img src="itvirus.jpg">
     </div>
 
-    <input type="submit" value="Submit">
+    <p class="question">What does the  <a id="POSTpopup">POST do</a>? :</p><br>
+    <input type="radio" id="POST1" name="POST">
+    <label for="POST1">Test the drivers and make sure no errors exist before loading the operating system.</label><br>
+    <input type="radio" id="POST2" name="POST">
+    <label for="POST2">Test the computer hardware and make sure no errors exist before loading the operating system.</label><br>
+    <input type="radio" id="POST3" name="POST">
+    <label for="POST3">Test the Network and make sure no errors exist before loading the operating system.</label><br>
+    <input type="radio" id="POST4" name="POST">
+    <label for="POST4">Nothing</label><br><br>
+
+    <div class="POSTpopup">
+      <p>The POST run first on your computer.</p>
+    </div>
+
+    <input type="button" value="Submit" onclick="Test()">
 
 </form>
 </div>
